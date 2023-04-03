@@ -2,15 +2,18 @@
     margin:0;
     padding:0;
 }
+body{
+    background-color: #F8F8F8;
+}
 header{
     position: sticky;
     top:0;
-    z-index:11;
+    z-index: 7;
 }
 .head{
     display:flex;
     justify-content: space-between;
-    background-color:azure;
+    background-color:#fff;
     height:65px;
 }
 .first{
@@ -24,11 +27,15 @@ header{
     width:168px;
     margin-right:32px;
 }
-.first div{
+
+#refer{
     text-transform: capitalize;
     font-size: small;
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
 }
-.first div:hover {
+#refer div:hover {
     color:blue;
     border-bottom: 2px solid blue;
 }
@@ -78,16 +85,19 @@ header{
     box-sizing: border-box;
     padding-right:5px;
 }
+
 main{
-    height:300vh;
     margin-left:141px;
     margin-right:150px;
 }
 .location{
     display:flex;
     align-items: center;
-    margin-top:40px;
+    padding-top:40px;
     margin-bottom:33px;
+}
+.retain{
+    display:none;
 }
 .l1{
     display:flex;
@@ -109,14 +119,17 @@ main{
     background-color: rgb(214, 214, 214);
 }
 .content{
-    display:flex;
-    gap:15px;
-
+    display:grid;
+    grid-template-columns: 230px auto;
+    grid-template-rows: min-content;
+    gap:20px;
+    position:relative;
 }
 .browse{
     display:flex;
     flex-direction: column;
     gap:10px;
+    /* position:absolute; */
 }
 .category{
     height:48px;
@@ -176,9 +189,14 @@ ul div{
 .topic{
     background-color:whitesmoke;
     padding:24px;
+    border-radius: 8px;
+    overflow:auto;
 }
 .topic h1{
     font-size:260%;
+}
+#topicimg{
+    width:680px;
 }
 .contri{
     background-color: azure;
@@ -218,6 +236,9 @@ ul div{
     display:flex;
     flex-direction: column;
 }
+.relat{
+    display:none;
+}
 footer{
     margin-left:50px;
     margin-right:50px;
@@ -225,3 +246,7 @@ footer{
     display:flex;
     gap:30px;
 }
+button:hover{
+    cursor: pointer;
+}
+
