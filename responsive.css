@@ -55,9 +55,9 @@
     .contri{
         display:flex;
         flex-direction: column;
-        height:160px;
+        height:250px;
     }
     #topicimg{
-        width:auto;
+        width:90vw;
     }
 }
