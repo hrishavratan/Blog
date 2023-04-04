@@ -166,6 +166,7 @@ main{
     color:white;
     border-radius: 5px;
 }
+
 h2{
     margin-top:25px;
     margin-bottom:10px;
@@ -236,9 +237,6 @@ ul div{
     display:flex;
     flex-direction: column;
 }
-.relat{
-    display:none;
-}
 footer{
     margin-left:50px;
     margin-right:50px;
@@ -249,4 +247,3 @@ footer{
 button:hover{
     cursor: pointer;
 }
-

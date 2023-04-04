@@ -55,9 +55,25 @@
     .contri{
         display:flex;
         flex-direction: column;
-        height:250px;
+        height:auto;
+        align-items: flex-start;
+        padding:10px;
+        gap:20px;
     }
+
     #topicimg{
         width:90vw;
+    }
+    h2{
+        width:auto;
+    }
+    ul{
+    display:flex;
+    flex-direction: column;
+    gap:9px;
+    border-radius:14px;
+    list-style: inside;
+    justify-content: center;
+    width:90vw;
     }
 }
