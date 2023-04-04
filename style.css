@@ -179,13 +179,15 @@ ul{
     list-style: inside;
     justify-content: center;
 }
-ul div{
+
+.link1{
+    background-color: aliceblue;
     height:60px;
     width:230px;
-    background-color: aliceblue;
     padding-left:20px;
     padding-top:20px;
     box-sizing: border-box;
+    border-radius:14px;
 }
 .topic{
     background-color:whitesmoke;

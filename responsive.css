@@ -1,79 +1,95 @@
-@media screen and (max-width : 767px)
-{
-    #refer{
-        display:none;
-    }
-    .notify{
+@media screen and (max-width : 767px) {
+    #refer {
         display: none;
     }
-    .second img{
-        margin-right:5px;
+    .head{
+        width:100%;
+    }
+    .notify {
+        display: none;
+    }
+
+    .second img {
+        margin-right: 5px;
         box-sizing: border-box;
     }
-    .prblm{
-        display:none;
-    }
-    .location{
+
+    .prblm {
         display: none;
     }
-    .retain{
+
+    .location {
+        display: none;
+    }
+
+    .retain {
         display: flex;
-        margin-top:20px;
+        margin-top: 20px;
         margin-bottom: 50px;
-        width:95vw;
-        margin-left:10px;
+        width: 95vw;
+        margin-left: 10px;
     }
-    .gap{
-        margin-left:20px;
-        margin-right:20px;
+
+    .gap {
+        margin-left: 20px;
+        margin-right: 20px;
     }
-    .dot{
-        display:flex;
+
+    .dot {
+        display: flex;
         align-items: center;
         /* background-color: rgba(30, 26, 26, 0.256); */
     }
-    .content{
-        display:flex;
+
+    .content {
+        display: flex;
         flex-direction: column;
         margin-left: 5px;
         margin-right: 5px;
     }
-    .category{
-        display:none;
-    }
-    .prob{
-        width:auto;
-        height:auto;
-    }
-    .prob button{
-        width:auto;
-    }
-    main{
-        margin:5px;
-        box-sizing: border-box;
-    }
-    .contri{
-        display:flex;
-        flex-direction: column;
-        height:auto;
-        align-items: flex-start;
-        padding:10px;
-        gap:20px;
+
+    .category {
+        display: none;
     }
 
-    #topicimg{
-        width:90vw;
+    .prob {
+        width: auto;
+        height: auto;
     }
-    h2{
-        width:auto;
+
+    .prob button {
+        width: auto;
     }
-    ul{
-    display:flex;
-    flex-direction: column;
-    gap:9px;
-    border-radius:14px;
-    list-style: inside;
-    justify-content: center;
-    width:90vw;
+
+    main {
+        margin: 5px;
+        box-sizing: border-box;
+    }
+
+    .contri {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    #topicimg {
+        width: 90vw;
+    }
+
+    h2 {
+        width: auto;
+    }
+
+    .link1 {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        border-radius: 14px;
+        list-style: inside;
+        justify-content: center;
+        width: 90vw;
     }
 }
