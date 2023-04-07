@@ -5,95 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-
-    <link rel="logo"
-        href="https://imgs.search.brave.com/Bp_Nm_o-J2EQ_nZKCGhE6UapRPHWfdyQ1JGo8uElWcw/rs:fit:140:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5P/ZFAyU3VzX2tucDVG/djRiR0p6a25RQUFB/QSZwaWQ9QXBp">
+    <link rel="icon" href="favicon_io/apple-touch-icon.png" type="image/jpg.">
+    </link>
     <title>Five tips for front-end development</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
-    <header class="head">
-        <div class="first">
-            <img
-                src="https://s3-ap-southeast-1.amazonaws.com/codestudio.codingninjas.com/codestudio/assets/icons/codestudio-logo.svg">
-            <div id="refer">
-                <div>guide paths</div>
-                <div>contests</div>
-                <div>interview&nbspprep</div>
-                <div>practice</div>
-                <div>resources</div>
-            </div>
+    <header>
+        <img id="logo"
+            src="https://s3-ap-southeast-1.amazonaws.com/codestudio.codingninjas.com/codestudio/assets/icons/codestudio-logo.svg">
+        <div id="refer">
+            <div class="link">guided&nbsppaths</div>
+            <div class="link">contests</div>
+            <div class="link">interview&nbspprep</div>
+            <div class="link">practice </div>
+            <div class="link">resources</div>
         </div>
-        <div class="second">
-            <div class="notify">
+        <div id="left">
+            <div id="notify">
                 <img
                     src="https://s3-ap-southeast-1.amazonaws.com/codestudio.codingninjas.com/codestudio/assets/icons/notification-bell.svg">
             </div>
-            <button class="prblm">Problem of Day</button>
-            <button class="others">
-                <div>
-                    Your EXP
-                </div>
-                <div class="boost">
-                    <IMG
-                        src="https://s3-ap-southeast-1.amazonaws.com/codestudio.codingninjas.com/codestudio/assets/icons/exp-streak-blue.svg">
-                    <p>400</p>
+            <button id="prob">Problem&nbspof&nbspthe&nbspday</button>
+            <button id="exp">
+                your&nbspEXP
+                <div id="points">
+                    <img
+                        src="https://s3-ap-southeast-1.amazonaws.com/codestudio.codingninjas.com/codestudio/assets/icons/exp-streak-yellow.svg">
+                    <span>400</span>
                 </div>
             </button>
             <img src="https://files.codingninjas.com/profile-burger-icon-24708.svg">
         </div>
     </header>
+
     <main>
         <div class="location">
-            <div class="l1">
-                <img src="https://files.codingninjas.in/home-icon-22703.svg">
-                <div>Codestudio</div>
-            </div>
-            <pre>  >  </pre>
-            <div class="l2">
-                <div>Library</div>
-            </div>
-            <pre>  >  </pre>
-            <div class="l3">
-                <div>Diversified Section</div>
-            </div>
-            <pre>  >  </pre>
-            <div class="l4"><b> Five Tips for Front-En...</b></div>
-        </div>
-        <div class="retain">
             <img src="https://files.codingninjas.in/home-icon-22703.svg">
-            <div class="gap">></div>
-            <div id="dot">...</div>
-            <div class="gap">></div>
-            <b>Five&nbspTips&nbspfor&nbspFront-En...</b>
+            <div class="arrow">></div>
+            <b id="dot">...</b>
+            <div class="arrow">></div>
+            <b id="tip">Five&nbspTips&nbspfor&nbspFrontEnd&nbspWeb&nbspDevelopment</b>
         </div>
 
-        <div class="content">
-            <div class="browse">
-                <button class="category">
-                    browse category
+
+        <div class="material">
+            <button class="category">
+                browse category
+            </button>
+            <div class="problem">
+                <div id="day">Problem of the day </div>
+                <span id="consistent">Consistent and structured practice daily can land you in
+                    <img id="company" src="https://files.codingninjas.com/company_logos-17926-24441.webp">
+                </span>
+                <button>
+                    Explore
                 </button>
-                <div class="prob">
-                    <div style="color:white;font-size: 130%;">Problem of the day </div>
-                    <div style="color:rgb(244, 169, 71)">Consistent and structured practice daily can land you in
-                        <img src="https://files.codingninjas.com/company_logos-17926-24441.webp">
-                    </div>
-                    <button>
-                        Explore
-                    </button>
-                </div>
-                <div class="relate">
-                    <h2>Related Articles</h2>
-                    <ul>
-                        <li class="link1">Apache VS. NGINX</li>
-                        <li class="link1">NGINX Introduction</li>
-                        <li class="link1">NGINX Variables</li>
-                        <li class="link1">NGINX HTTP Health Checks</li>
-                    </ul>
-                </div>
+            </div>
+            <div class="relate">
+                <h2>Related Articles</h2>
+                <ul>
+                    <li class="link1">Apache VS. NGINX</li>
+                    <li class="link1">NGINX Introduction</li>
+                    <li class="link1">NGINX Variables</li>
+                    <li class="link1">NGINX HTTP Health Checks</li>
+                </ul>
             </div>
             <div class="topic">
                 <h1>Five Tips for Front-End Web Development</h1>
@@ -226,11 +203,14 @@
         </div>
     </main>
     <footer>
-        <div>Library:</div>
+        <p>Library:</p>
         <div>Java | Python | C Programming Language | C++ Programming Language | C++ Programming Language | C++
-            Programming Language |Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laborum nam recusandae,
-            velit praesentium cumque cum dignissimos ex molestiae distinctio quaerat veniam quia blanditiis voluptatibus
-            libero. Exercitationem fugit impedit magnam totam minima necessitatibus delectus. Illo fugiat dolorum nobis
+            Programming Language |Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laborum nam
+            recusandae,
+            velit praesentium cumque cum dignissimos ex molestiae distinctio quaerat veniam quia blanditiis
+            voluptatibus
+            libero. Exercitationem fugit impedit magnam totam minima necessitatibus delectus. Illo fugiat dolorum
+            nobis
             ducimus nemo?
         </div>
     </footer>
