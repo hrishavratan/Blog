@@ -5,12 +5,14 @@
 
     img:hover {
         cursor: pointer;
+        transform: scale(0.8);
+        transition-duration: 1s;
     }
 
     button:hover {
         cursor: pointer;
         transform: scale(0.9);
-        transition-duration: 2s;
+        transition-duration: 1.4s;
     }
 
     header {
@@ -243,7 +245,10 @@
         gap: 24px;
         align-items: center;
     }
-
+    .link img:hover{
+        transform: scale(1.2);
+        transition-duration: 1s;
+    }
     .article ul {
         display: flex;
         flex-direction: column;
